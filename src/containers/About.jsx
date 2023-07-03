@@ -3,13 +3,13 @@ import React from 'react';
 const About = () => {
   return (
     <>
-      <div className='overflow-hidden'>
+      <div id='learn-more' className='overflow-hidden'>
         <svg
           preserveAspectRatio='none'
           viewBox='0 0 1200 120'
           xmlns='http://www.w3.org/2000/svg'
           style={{
-            fill: '#4695fb',
+            fill: '#1cca5a',
             width: '185%',
             height: 200,
             transform: 'rotate(180deg)',
@@ -18,7 +18,7 @@ const About = () => {
           <path d='M1200 120L0 16.48V0h1200v120z' />
         </svg>
       </div>
-      <div className='bg-[#4695fb]'>
+      <div className='bg-[#1cca5a]'>
         <div className='flex flex-col justify-center items-center'>
           <h1 className='text-5xl font-bold text-white'>Services We Offer</h1>
           <p className='py-10 text-white'>
@@ -28,7 +28,7 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className='bg-[#4695fb] pb-16'>
+      <div className='bg-[#1cca5a] pb-16'>
         <div className='flex flex-row justify-center'>
           <div className='card w-[28rem] bg-white shadow-xl mx-6'>
             <figure>
@@ -73,7 +73,7 @@ const About = () => {
           preserveAspectRatio='none'
           viewBox='0 0 1200 120'
           xmlns='http://www.w3.org/2000/svg'
-          style={{ fill: '#4695fb', width: '185%', height: 200 }}
+          style={{ fill: '#1cca5a', width: '185%', height: 200 }}
         >
           <path d='M1200 120L0 16.48V0h1200v120z' />
         </svg>

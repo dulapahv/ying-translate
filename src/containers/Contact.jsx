@@ -88,57 +88,73 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className='mt-12 lg:mt-0'>
-            <div className='form-control w-full'>
-              <label className='label'>
-                <span className='label-text'>What is your name?</span>
-                <span className='label-text-alt'>Top Right label</span>
-              </label>
-              <input
-                type='text'
-                placeholder='Type here'
-                className='input input-bordered w-full'
-              />
-              <label className='label'>
-                <span className='label-text-alt'>Bottom Left label</span>
-                <span className='label-text-alt'>Bottom Right label</span>
-              </label>
+          <form
+            action='https://formsubmit.co/ce71ded21ec14aa0222ad2f72a196ee0'
+            method='POST'
+            className='mt-8 lg:mt-0'
+          >
+            <div className='mt-12 lg:mt-0'>
+              <div className='form-control w-full'>
+                <label className='label'>
+                  <span className='label-text'>Name</span>
+                  <span className='label-text-alt'>Top Right label</span>
+                </label>
+                <input
+                  type='name'
+                  name='name'
+                  placeholder='Type here'
+                  className='input input-bordered w-full bg-gray-300 border-none text-gray-500'
+                  required
+                />
+                <label className='label'>
+                  <span className='label-text-alt'>Bottom Left label</span>
+                  <span className='label-text-alt'>Bottom Right label</span>
+                </label>
+              </div>
+              <div className='form-control w-full'>
+                <label className='label'>
+                  <span className='label-text'>Email</span>
+                  <span className='label-text-alt'>Top Right label</span>
+                </label>
+                <input
+                  type='email'
+                  name='email'
+                  placeholder='Type here'
+                  className='input input-bordered w-full bg-gray-300 border-none text-gray-500'
+                  required
+                />
+                <label className='label'>
+                  <span className='label-text-alt'>Bottom Left label</span>
+                  <span className='label-text-alt'>Bottom Right label</span>
+                </label>
+              </div>
+              <div className='form-control'>
+                <label className='label'>
+                  <span className='label-text'>Message</span>
+                  <span className='label-text-alt'>Alt label</span>
+                </label>
+                <textarea
+                  type='message'
+                  name='message'
+                  className='textarea textarea-bordered h-24 bg-gray-300 border-none text-gray-500'
+                  placeholder='Bio'
+                  required
+                ></textarea>
+                <label className='label'>
+                  <span className='label-text-alt'>Your bio</span>
+                  <span className='label-text-alt'>Alt label</span>
+                </label>
+              </div>
+              <div className='flex justify-end'>
+                <button
+                  type='submit'
+                  className='btn bg-[#1cca5a] hover:bg-[#229646] border-none text-white'
+                >
+                  Send Message
+                </button>
+              </div>
             </div>
-            <div className='form-control w-full'>
-              <label className='label'>
-                <span className='label-text'>What is your name?</span>
-                <span className='label-text-alt'>Top Right label</span>
-              </label>
-              <input
-                type='text'
-                placeholder='Type here'
-                className='input input-bordered w-full'
-              />
-              <label className='label'>
-                <span className='label-text-alt'>Bottom Left label</span>
-                <span className='label-text-alt'>Bottom Right label</span>
-              </label>
-            </div>
-            <div className='form-control'>
-              <label className='label'>
-                <span className='label-text'>Your bio</span>
-                <span className='label-text-alt'>Alt label</span>
-              </label>
-              <textarea
-                className='textarea textarea-bordered h-24'
-                placeholder='Bio'
-              ></textarea>
-              <label className='label'>
-                <span className='label-text-alt'>Your bio</span>
-                <span className='label-text-alt'>Alt label</span>
-              </label>
-            </div>
-            <div className='flex justify-end'>
-              <button className='btn bg-[#5493f9] hover:bg-[#5493f9] border-none text-white'>
-                Send Message
-              </button>
-            </div>
-          </div>
+          </form>
         </div>
       </div>
     </div>

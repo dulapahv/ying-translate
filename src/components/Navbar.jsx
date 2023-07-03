@@ -3,7 +3,7 @@ import React from 'react';
 const Navbar = () => {
   return (
     <div className='-mb-[7rem]'>
-      <div className='navbar bg-[#3297fd]'>
+      <div className='navbar bg-[#1cca5a]'>
         <a href='/' className='btn btn-ghost normal-case text-xl text-white'>
           Ying Translate
         </a>
@@ -13,7 +13,7 @@ const Navbar = () => {
           preserveAspectRatio='none'
           viewBox='0 0 1200 120'
           xmlns='http://www.w3.org/2000/svg'
-          style={{ fill: '#3297fd', width: '125%', height: 75 }}
+          style={{ fill: '#1cca5a', width: '125%', height: 75 }}
         >
           <path
             d='M0 0v46.29c47.79 22.2 103.59 32.17 158 28 70.36-5.37 136.33-33.31 206.8-37.5 73.84-4.36 147.54 16.88 218.2 35.26 69.27 18 138.3 24.88 209.4 13.08 36.15-6 69.85-17.84 104.45-29.34C989.49 25 1113-14.29 1200 52.47V0z'
